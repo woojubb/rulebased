@@ -1,0 +1,32 @@
+{
+  "name": "rulebased",
+  "version": "0.0.1",
+  "description": "RuleBased - Tools for managing and applying rule sets",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean",
+    "lint": "pnpm -r lint",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "rules"
+  ],
+  "homepage": "https://rulebased.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woojubb/rulebased.git"
+  }
+} 

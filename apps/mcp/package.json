@@ -1,0 +1,55 @@
+{
+  "name": "@rulebased/mcp",
+  "version": "0.0.1",
+  "description": "RuleBased CLI tool for managing and applying rule sets in projects",
+  "main": "dist/main.js",
+  "bin": {
+    "rulebased": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/main.ts",
+    "start": "node dist/main.js",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "rules",
+    "cli",
+    "typescript"
+  ],
+  "author": "RuleBased Team",
+  "license": "MIT",
+  "homepage": "https://rulebased.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woojubb/rulebased.git",
+    "directory": "apps/mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/woojubb/rulebased/issues"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.3.0",
+    "tsx": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 

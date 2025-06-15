@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "name": "default",
+      "type": "local",
+      "path": "./rule-sets",
+      "description": "Local rule sets for this project"
+    },
+    {
+      "name": "shared",
+      "type": "git",
+      "repository": "https://github.com/rulebased/shared-rules.git",
+      "branch": "main",
+      "path": "./shared-rule-sets",
+      "description": "Shared organizational rule sets"
+    }
+  ],
+  "cache": {
+    "enabled": true,
+    "ttl": 3600
+  },
+  "settings": {
+    "autoSync": false,
+    "defaultFormat": "markdown"
+  }
+} 
